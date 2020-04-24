@@ -9,12 +9,12 @@ export const Timeout = 300 * 10e2;
 import { Text } from "./Chat/response";
 
 export const Messenges = {
-  Timeout: Text("Đã hết 5 phút rồii"),
+  Timeout: Text("Đã hết 5 phút rồi"),
   Help: Text(
     'Hãy nhắn 1 kí tự nào đó để bắt đầu và kết thúc lại bằng "pp" nhé'
   ),
   Paired: Text(
-    "2 bạn đã được ghép đôi với nhau, hãy chào nhau để bắt đầu cuộc trò chuyện nhée"
+    "2 bạn đã được ghép đôi với nhau, hãy chào nhau để bắt đầu cuộc trò chuyện nhé"
   ),
   Request: {
     Send: Text(
