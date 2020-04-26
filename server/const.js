@@ -9,19 +9,19 @@ export const Timeout = 300 * 10e2;
 import { Text } from "./Chat/response";
 
 export const Messenges = {
-  Timeout: Text("hớt năm phú rầu"),
+  Timeout: Text("hết năm phút rầu"),
   Help: Text(
     'Hãy nhắn 1 kí tự nào đó để bắt đầu và kết thúc lại bằng "pp" nhang'
   ),
   Paired: Text(
-    "2 bạng đã được ghép đâu với nhau, hãy chào nhau để bắt đầu cuộc trò chuyện nhang"
+    "2 bạng đã được ghép đôi với nhau. Nói dì với ngừ ta đi kìa"
   ),
   Request: {
     Send: Text(
-      "Dui lòng chờ một chút đở tui tìm cho bạng 1 ngừ tâm sự phù hợp nhang. Sau 5 phúc mà không tìm thấy là chắc bạng quá gớm !!"
+      "Đang tìm kiếm. Dui lòng chờ một chút đở tui tìm cho bạng 1 ngừ tâm sự phù hợp nhang. !!"
     ),
     Sent: Text(
-      "Dì hấu dữ..."
+      "Đang tìm nè...Dì hấu dữ"
     )
   },
   Test: {
@@ -31,7 +31,7 @@ export const Messenges = {
   },
   End: {
     Pair: Text(
-      "Hủy tìm kiếm rầu nhang"
+      "Không tìm thấy ngừ phù hợp. Nói dì để bắt đầu lại nhang"
     ),
     Chat: {
       Active: Text("Bạng đã dừng cuộc trò chuyện"),
