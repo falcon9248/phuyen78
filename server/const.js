@@ -9,16 +9,16 @@ export const Timeout = 300 * 10e2;
 import { Text } from "./Chat/response";
 
 export const Messenges = {
-  Timeout: Text("hết năm phút rầu"),
+  Timeout: Text("hết năm phút rầu. Nhắn ký tự bất kỳ để bắt đầu lại"),
   Help: Text(
     'Hãy nhắn 1 kí tự nào đó để bắt đầu và kết thúc lại bằng "pp" nhang'
   ),
   Paired: Text(
-    "2 bạng đã được ghép đôi với nhau. Nói dì với ngừ ta đi kìa"
+    "Đã tìm thấy. Nói dì với ngừ ta đi kìa"
   ),
   Request: {
     Send: Text(
-      "Đang tìm kiếm. Dui lòng chờ một chút đở tui tìm cho bạng 1 ngừ tâm sự phù hợp nhang. !!"
+      "Đang tìm kiếm..."
     ),
     Sent: Text(
       "Đang tìm nè...Dì hấu dữ"
@@ -31,11 +31,11 @@ export const Messenges = {
   },
   End: {
     Pair: Text(
-      "Không tìm thấy ngừ phù hợp. Nói dì để bắt đầu lại nhang"
+      "Không tìm thấy người phù hợp. Nói dì để bắt đầu lại nhang"
     ),
     Chat: {
-      Active: Text("Bạng đã dừng cuộc trò chuyện"),
-      Passive: Text("Ngừ ấy đã chạy mất dép")
+      Active: Text("Bạng đã dừng cuộc trò chuyện. Nhắn ký tự bất kỳ để tìm lại"),
+      Passive: Text("Người ấy đã chạy mất dép. Nhắn ký tự bất kỳ để tìm lại")
     }
   },
   ChangeFav: {
