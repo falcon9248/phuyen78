@@ -31,7 +31,7 @@ export const Messenges = {
   },
   End: {
     Pair: Text(
-      "Không tìm thấy người phù hợp. Nói dì để bắt đầu lại nhang"
+      "Kết thúc tìm kiếm. Nói dì để bắt đầu lại nhang"
     ),
     Chat: {
       Active: Text("Bạng đã dừng cuộc trò chuyện. Nhắn ký tự bất kỳ để tìm lại"),
