@@ -5,7 +5,7 @@ export const MongoUri =
   process.env.MONGODB_URI || "mongodb://localhost:27017/MessengerStranger";
 export const MongoDbName =
   process.env.MONGODB_DBNAME || require("parse-mongo-url")(MongoUri).name;
-export const Timeout = 300 * 10e2;
+export const Timeout = 6000 * 10e2;
 import { Text } from "./Chat/response";
 
 export const Messenges = {
